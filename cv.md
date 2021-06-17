@@ -2,7 +2,7 @@
 ___
 ## Contacts:
 
-* Telegram: [@teclav_mv](https://t.me/teclav_mv)
+* Telegram: @teclav_mv
 * Discord: @teclav_mv
 * Email: maksim-teclav@mail.ru
 * Phone number: +7 (914) 424-83-00
@@ -14,7 +14,8 @@ Becoming a great developer is my priority goal now. I have not any commertial ex
 
 ___
 ## Skills:
- #### Soft
+
+#### Soft
 
 * I can google 
 * Not afraid to ask questions
@@ -23,7 +24,8 @@ ___
 * Top for own money
 
 
- #### Hard 
+#### Hard 
+
  * HTML
  * CSS
  * JavaScript
@@ -55,12 +57,17 @@ function isAnagram(test, original) {
 };
 ```
 ___
-## Education:
+## Work experience
+
+No commertial experience in development
+
+#### Education/Training courses:
 
 * FreeCodeCamp
+* learn.javascript
 * Stepic
 * HTML academy
-* Learn.javascript.
+* MDN
 * YouTube tutorials
 * Lectures in Yandex school of developing
 ___
