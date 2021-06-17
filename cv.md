@@ -1,11 +1,13 @@
 # Maksim Tetslav
 ___
+
 ## Contacts:
 
 * Telegram: @teclav_mv
 * Discord: @teclav_mv
 * Email: maksim-teclav@mail.ru
 * Phone number: +7 (914) 424-83-00
+
 ____
 
 ## About:
@@ -13,6 +15,7 @@ ____
 Becoming a great developer is my priority goal now. I have not any commertial experiance yet, but I am really motivated to get my first job.
 
 ___
+
 ## Skills:
 
 #### Soft
@@ -34,6 +37,7 @@ ___
  * Git
  * GitHub
  * Visual Studio Code
+
 ____
 
 ## Code example:
@@ -57,6 +61,7 @@ function isAnagram(test, original) {
 };
 ```
 ___
+
 ## Work experience
 
 No commertial experience in development
@@ -70,6 +75,7 @@ No commertial experience in development
 * MDN
 * YouTube tutorials
 * Lectures in Yandex school of developing
+
 ___
 
 ## Languages
