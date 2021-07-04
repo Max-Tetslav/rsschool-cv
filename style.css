@@ -1,0 +1,80 @@
+.wrapper {
+    max-width: 980px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section {
+	padding: 15px 25px;
+
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    width: 400px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style: none;
+}
+
+.bio {
+    display: flex;
+    padding: 15px 25px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bio__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-list {
+    padding: 0;
+    list-style: none;
+}
+
+.skills {
+	  padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skillsBlock {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+
+.education {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
