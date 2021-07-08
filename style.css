@@ -1,12 +1,12 @@
 .wrapper {
     max-width: 980px;
     padding: 0 15px;
-    margin: auto;
+    margin: 0;
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .header {
@@ -17,8 +17,7 @@ a {
 }
 
 .section {
-	padding: 15px 25px;
-
+    padding: 15px 25px;
 }
 
 .navbar {
@@ -52,29 +51,26 @@ a {
 }
 
 .skills {
-	  padding: 15px 25px;
+    padding: 15px 25px;
     display: flex;
     flex-direction: column;
 }
 
 .skillsBlock {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-
 .education {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
