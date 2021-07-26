@@ -105,23 +105,21 @@
             <section class="section code">
                 <h2 class="section-name">Code example:</h2>
                 <pre>
-                	<code>
-                            function isAnagram(test, original) { 
-                                const originalSortArray = original.toLowerCase().split("").sort().join(""); 
-                                const testSortArray = test.toLowerCase().split("").sort().join(""); 
-                                const chars = originalSortArray.length;
+                  	function isAnagram(test, original) { 
+                  		const originalSortArray = original.toLowerCase().split("").sort().join(""); 
+                  	  const testSortArray = test.toLowerCase().split("").sort().join(""); 
+                  	  const chars = originalSortArray.length;
   
-                                if(chars !== testSortArray.length){
-                                return false;
-                                };
+                  	  if(chars !== testSortArray.length){
+                  	  return false;
+                  	  };
 
-                                if(originalSortArray !== testSortArray){
-                                return false;
-                                };
+                  	  if(originalSortArray !== testSortArray){
+                  	  return false;
+                  	  };
 
-                                return true;
-                            };
-                        </code>
+                  	  return true;
+                  	};
                 </pre>
             </section>
         </main>
