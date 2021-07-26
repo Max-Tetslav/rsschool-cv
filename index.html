@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <title>rsschool-cv-html</title>
+
 </head>
 
 <body>
@@ -19,6 +20,7 @@
                     <li class="menu__item">About</li>
                     <li class="menu__item">Skills</li>
                     <li class="menu__item">Experience</li>
+                    <p>
                 </ul>
             </nav>
         </header>
@@ -103,24 +105,24 @@
             <section class="section code">
                 <h2 class="section-name">Code example:</h2>
                 <pre>
-										<code>
-											function isAnagram(test, original) { 
-																	const originalSortArray = original.toLowerCase().split("").sort().join(""); 
-																	const testSortArray = test.toLowerCase().split("").sort().join(""); 
-																	const chars = originalSortArray.length;
-		
-																	if(chars !== testSortArray.length){
-																	return false;
-																	};
+                	<code>
+                            function isAnagram(test, original) { 
+                                const originalSortArray = original.toLowerCase().split("").sort().join(""); 
+                                const testSortArray = test.toLowerCase().split("").sort().join(""); 
+                                const chars = originalSortArray.length;
+  
+                                if(chars !== testSortArray.length){
+                                return false;
+                                };
 
-																	if(originalSortArray !== testSortArray){
-																	return false;
-																	};
+                                if(originalSortArray !== testSortArray){
+                                return false;
+                                };
 
-																	return true;
-															};      	
-										</code>
-								</pre>
+                                return true;
+                            };
+                        </code>
+                </pre>
             </section>
         </main>
 
