@@ -5,45 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
     <title>rsschool-cv-html</title>
 
 </head>
 
 <body>
-
     <div class="wrapper">
         <header class="header">
-            <h1>Junior Frontend Developer</h1>
+            <h1><a href="#">RSS CV</a></h1>
+            <button class="menu-btn"><img class="menu-icon" src="img/menu.svg" alt="menu-button"></button>
             <nav class="navbar">
                 <ul class="menu">
-                    <li class="menu__item">BIO</li>
-                    <li class="menu__item">About</li>
-                    <li class="menu__item">Skills</li>
-                    <li class="menu__item">Experience</li>
+                    <li class="menu__item"><a href="#bio">BIO</a> </li>
+                    <li class="menu__item"><a href="#about">About</a> </li>
+                    <li class="menu__item"><a href="#skills">Skills</a> </li>
+                    <li class="menu__item"><a href="#experiance">Experience</a> </li>
                 </ul>
             </nav>
+            <div class="container__adaptive-menu">
+                <nav class="adaptive-menu__navbar">
+                    <ul class="adaptive-menu__list">
+                        <li class="adaptive-menu__item"><a href="#bio">BIO</a> </li>
+                        <li class="adaptive-menu__item"><a href="#about">About</a> </li>
+                        <li class="adaptive-menu__item"><a href="#skills">Skills</a> </li>
+                        <li class="adaptive-menu__item"><a href="#experiance">Experience</a> </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
-            <section class="section bio">
+            <section class="section bio" id="bio">
                 <div class="bio__info">
                     <h2 class="section-name">BIO:</h2>
                     <p>Maksim Tetslav</p>
                     <p>22 y.o.</p>
-                    <h2 class="section-name">Contacts:</h2>
+                    <h3 class="section-name">Contacts:</h3>
                     <ul class="contact-list">
-                        <li class="contact-list__item">Telegram: @teclav_mv</li>
-                        <li class="contact-list__item">Email: maksim-teclav@mail.ru</li>
-                        <li class="contact-list__item">Phone number: +7 (914) 424-83-00</li>
+                        <li class="contact-list__item">Telegram: <a href="https://tlgg.ru/teclav_mv">@teclav_mv</a></li>
+                        <li class="contact-list__item">Email: <a href="mailto:maksim-teclav@mail.ru?subject=Job_offer">maksim-teclav@mail.ru</a></li>
+                        <li class="contact-list__item">Phone number: <a href="tel:+79244248300">+7 (914) 424-83-00</a></li>
                     </ul>
                 </div>
-                <img src="img/photo.png" width="250" alt="pretty guy">
+                <img class="photo" src="img/photo.png" alt="pretty guy">
             </section>
 
-            <section class="section about">
+            <section class="section about" id="about">
                 <h2 class="section-name">About:</h2>
                 <p>Becoming a great developer is my priority goal now. I have not any commertial experiance yet, but I am really motivated to get my first job.</p>
+                <h3>Self-intoduction</h3>
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Cudl_VFJAbs?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
-            <section class="section skills">
+            <section class="section skills" id="skills">
                 <h2 class="section-name">Skills:</h2>
                 <div class="skillsBlock">
                     <div class="softSkills">
@@ -73,27 +92,49 @@
 
             </section>
 
-            <section class="section experience">
+            <section class="section experience" id="experiance">
                 <h2 class="section-name">Work experiance:</h2>
                 <p>No commertial experience in development</p>
+                <div class="projects__container">
+                    <h3>Projects:</h3>
+                    <div class="projects">
+                        <a class="project" href="https://max-tetslav.github.io/infotecs_test/" target="_blank">
+                            <div class="project">
+                                <img class="project__image" src="img/project2.png" alt="project 1 screenshoot">
+                                <h4>JSON TABLE</h4>
+                                <p>JavaScript AJAX CSS3 HTML5</p>
+                            </div>
+                        </a>
+                        <a class="project" href="https://rolling-scopes-school.github.io/max-tetslav-JSFEPRESCHOOL/js-clock/" target="_blank">
+                            <div class="project">
+                                <img class="project__image" src="img/project1.png" alt="project 2 screenshoot">
+                                <h4>JS-CLOCK</h4>
+                                <p>JavaScript CSS3 HTML5</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
             </section>
 
+
+
             <section class="section education">
-                <div>
-                    <h2 class="section-name">Education/<br>Training courses:</h2>
+                <div class="education__sourses">
+                    <h3>Education/<br>Training courses:</h3>
                     <ul>
-                        <li>FreeCodeCamp</li>
+                        <li>RSS JS pre-school 2021</li>
                         <li>learn.javascript</li>
-                        <li>Stepic</li>
-                        <li>HTML academy</li>
                         <li>MDN</li>
-                        <li>YouTube tutorials</li>
-                        <li>Lectures in Yandex school of development</li>
+                        <li>YouTube lectures</li>
+                        <li>Stepic</li>
+                        <li>FreeCodeCamp</li>
                     </ul>
                 </div>
 
                 <div class="language">
-                    <h2 class="section-name">Languages:</h2>
+                    <h3>Languages:</h3>
                     <ul>
                         <li>Russian - native</li>
                         <li>English - B2</li>
@@ -102,24 +143,22 @@
                 </div>
             </section>
             <section class="section code">
-                <h2 class="section-name">Code example:</h2>
-                <pre>
-                  	function isAnagram(test, original) { 
-                  		const originalSortArray = original.toLowerCase().split("").sort().join(""); 
-                  	  const testSortArray = test.toLowerCase().split("").sort().join(""); 
-                  	  const chars = originalSortArray.length;
+                <h3>Code example:</h3>
+                <pre><code class="javascript">function isAnagram(test, original) {
+  	const originalSortArray = original.toLowerCase().split("").sort().join(""); 
+	const testSortArray = test.toLowerCase().split("").sort().join(""); 
+	const chars = originalSortArray.length;
   
-                  	  if(chars !== testSortArray.length){
-                  	  return false;
-                  	  };
+	if(chars !== testSortArray.length){
+		return false;
+	};
 
-                  	  if(originalSortArray !== testSortArray){
-                  	  return false;
-                  	  };
+	if(originalSortArray !== testSortArray){
+		return false;
+	};
 
-                  	  return true;
-                  	};
-                </pre>
+	return true;
+}</code></pre>
             </section>
         </main>
 
@@ -128,7 +167,7 @@
             <a href="https://rs.school/js/"><img src="img/rss_logo.svg" width="70" alt="rsschool js-course logo"></a>
         </footer>
     </div>
-
+    <script src="main.js"></script>
 </body>
 
 </html>
